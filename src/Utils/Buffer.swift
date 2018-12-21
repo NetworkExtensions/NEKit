@@ -24,8 +24,9 @@ struct Buffer {
             return
         }
 
+        var localBuffer = buffer
         buffer.withUnsafeMutableBytes {
-            buffer.copyBytes(to: $0, from: offset..<buffer.count)
+            localBuffer.copyBytes(to: $0, from: offset..<localBuffer.count)
         }
         buffer.replaceSubrange(buffer.count - offset ..< buffer.count, with: Data())
         offset = 0
