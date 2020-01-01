@@ -1,6 +1,6 @@
 github "NetworkExtensions/CocoaAsyncSocket" ~> 1.0.1
 github "NetworkExtensions/CocoaLumberjack" ~> 3.4.2
-github "NetworkExtensions/MMDB-Swift" "1.0.1"
+github "NetworkExtensions/MMDB-Swift" "1.0.2"
 github "NetworkExtensions/Sodium-framework" "1.0.12"
 github "NetworkExtensions/YamlSwift" ~> 3.4.3
 github "NetworkExtensions/tun2socks" ~> 0.6.2
